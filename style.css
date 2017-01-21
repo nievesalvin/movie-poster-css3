@@ -36,7 +36,7 @@ p {
 }
 
 #neal {
-    border: 1px solid #0EC3FF;/*creates a border around image*/
+    border: 2px solid #0EC3FF;/*creates a border around image*/
     padding: 3px;/*creates 3 px of space between imagine and border*/
     float: left;/*makes the image stay on the right side*/
     position: relative;/*keeps the position relative to its orignial position*/
