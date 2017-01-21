@@ -1,0 +1,244 @@
+p {
+    font-size: 16px; /*makes the font size 16px*/
+}
+
+
+.whitecollar {
+    display: inline;/*sets it so that something can be next to it*/
+    font-family: 'Anton', sans-serif;/*sets the font of text and the back-up font*/
+    color: white;/*sets the color of the text*/
+    font-size: 75px;/*sets the size of the font*/
+    text-shadow: 2px 2px black;/*sets shadow to 2px and black*/
+}
+
+.movie {
+    display: inline;/*sets it so that something can be next to it*/
+    font-family: 'Anton', sans-serif;/*sets the font of text and the back-up font*/
+    color: #0EC3FF;/*sets the color of the text*/
+    font-size: 75px;/*sets the size of the font*/
+    text-shadow: 2px 2px black;/*sets shadow to 2px and black*/
+}
+
+.sum {
+    width: 500px;/*sets the width to 500px*/
+    color: white;/*sets font color white*/
+    text-align: center;/*aligns the text*/
+    margin-left: auto;/*creates equal space to the left*/
+    margin-right: auto;/*creates equal space to the right*/
+    margin-top: 200px;/*makes the space above the paragrpah 200px*/
+    font-size: 20px;/*makes the font size 20px*/
+}
+
+.sum:hover {
+    -ms-transform: rotate(10deg); /*rotates the text when you hover it*/
+    -webkit-transform: rotate(10deg); /*rotates the text when you hover it*/
+    transform: rotate(10deg);/*rotates the text when you hover it*/
+}
+
+#neal {
+    border: 1px solid #0EC3FF;/*creates a border around image*/
+    padding: 3px;/*creates 3 px of space between imagine and border*/
+    float: left;/*makes the image stay on the right side*/
+    position: relative;/*keeps the position relative to its orignial position*/
+    top: 100px;/*picture is 100px from the top*/
+}
+
+#neal {
+    background: gray;/*sets the background to gray*/
+    animation: neal 2s ease-in-out 0s 1 normal;/*animation name,duration,timing-function,delay,iteration-count, direction*/
+    -webkit-animation: neal 2s ease-in-out 0s 1 normal;/*animation name,duration,timing-function,delay,iteration-count, direction*/
+}
+
+@-webkit-keyframes neal {/*moves imagine from 500px from the top to 100px from the top*/
+    from {top: 500px;}
+    to {top: 100px;}
+}
+
+#peter {
+    border: 2px solid #0EC3FF;/*creates a border around image*/
+    padding: 3px;/*creates 3 px of space between imagine and border*/
+    float: right;/*makes the image stay on the right side*/
+    position: relative;/*keeps the position relative to its orignial position*/
+    top: 100px;/*picture is 100px from the top*/
+}
+
+#peter {
+    background: gray;/*sets the background color to gray*/
+    animation: peter 2s ease-in-out 0s 1 normal;/*animation name,duration,timing-function,delay,iteration-count, direction*/
+    -webkit-animation: peter 2s ease-in-out 0s 1 normal;/*animation name,duration,timing-function,delay,iteration-count, direction*/
+}
+
+@-webkit-keyframes peter {/*moves imagine from 500px from the top to 100px from the top*/
+    from {top: 500px;}
+    to {top: 100px;}
+}
+
+#title {
+    text-align: center;/*centers the text*/
+}
+
+#critics {
+    display: inline;/*sets it so that something can be next to it*/
+    font-family: 'Anton', sans-serif; /*sets the font of text and the back-up font*/
+    color: #0EC3FF;/*sets the color of the text*/
+    font-size: 40px;/*sets the size of the font*/
+    text-align: center;/*centers the text*/
+}
+#critics {
+    background-color: #0EC3FF;/*sets the color the background*/
+    -webkit-animation-name: critics;/*name of animation*/
+    -webkit-animation-duration: 4s;/*how long the animation last*/ 
+    animation-name: critics;/*name of animation*/
+    animation-duration: 2s;/*how long the animation last*/
+}
+
+
+@-webkit-keyframes critics {
+    from {color: white;}/*throughout the animation will start at white*/
+    to {color: #0EC3FF;}/*at the end of the animation the text will be blue*/
+}
+
+@keyframes critics {
+    from {color: white;}/*throughout the animation will start at white*/
+    to {color: #0EC3FF;}/*at the end of the animation the text will be blue*/
+}
+
+#NYT {
+    width: 450px;
+    color: white;/*text color*/
+    text-align: center;/*centers the text*/
+    margin-left: auto;/*creates equal space from the left*/
+    margin-right: auto;/*creates equal space from the right*/
+}
+#NYT {
+    color: white;/*text color*/
+    -webkit-animation-name: NYT; /*name of animation*/
+    -webkit-animation-duration: 3s; /*animation last for 3 sec*/
+    animation-name: NYT;/*name of animation*/
+    animation-duration: 3s;/*animation last for 3 sec*/
+}
+
+
+@-webkit-keyframes NYT {
+    from {color: #0EC3FF;}/*throughout the animation will start at blue*/
+    to {color: white;}/*at the end of the animation the text will be white*/
+}
+
+@keyframes NYT {
+    from {color: #0EC3FF;}/*throughout the animation will start at blue*/
+    to {color: white;}/*at the end of the animation the text will be white*/
+}
+
+#Huff {
+    width: 450px;/*sets the width to 450px*/
+    color: white;/*text color*/
+    text-align: center;/*centers the text*/
+    margin-left: auto;/*creates equal space from the left*/
+    margin-right: auto;/*creates equal space from the right*/
+}
+#Huff {
+    color: white;/*text color*/
+    -webkit-animation-name: Huff; /*name of animation*/
+    -webkit-animation-duration: 3s; /*animation last for 3 sec*/
+    animation-name: Huff;/*name of animation*/
+    animation-duration: 3s;/*animation last for 3 sec*/
+}
+
+
+@-webkit-keyframes Huff {
+    from {color: #0EC3FF;}/*throughout the animation will start at blue*/
+    to {color: white;}/*at the end of the animation the text will be white*/
+}
+
+@keyframes Huff {
+    from {color: #0EC3FF;}/*throughout the animation will start at blue*/
+    to {color: white;}/*at the end of the animation the text will be white*/
+}
+
+#NYP {
+    width: 450px;/*sets the width to 450px*/
+    color: white;/*text color*/
+    text-align: center;/*centers the text*/
+    margin-left: auto;/*creates equal space from the left*/
+    margin-right: auto;/*creates equal space from the right*/
+}
+#NYP {
+    color: white;/*text color*/
+    -webkit-animation-name: NYP; /*name of animation*/
+    -webkit-animation-duration: 3s; /*animation last for 3 sec*/
+    animation-name: NYP;/*name of animation*/
+    animation-duration: 3s;/*animation last for 3 sec*/
+}
+
+
+@-webkit-keyframes NYP {
+    from {color: #0EC3FF;}/*throughout the animation will start at blue*/
+    to {color: white;}/*at the end of the animation the text will be white*/
+}
+
+@keyframes NYP {
+    from {color: #0EC3FF;}/*throughout the animation will start at blue*/
+    to {color: white;}/*at the end of the animation the text will be white*/
+}
+
+#HSTAT {
+    width: 450px;/*sets the width to 450px*/
+    color: white;/*makes the text white*/
+    text-align: center;/*centers the text*/
+    margin-left: auto;/*creates equal space from the left*/
+    margin-right: auto;/*creates equal space from the right*/
+}
+#HSTAT {
+    color: white;
+    -webkit-animation-name: HSTAT;/*animation name*/ 
+    -webkit-animation-duration: 3s; /*last for 3 sec*/
+    animation-name: HSTAT;/*name of animation*/
+    animation-duration: 3s;/*animation last for 3 sec*/
+}
+
+
+@-webkit-keyframes HSTAT {
+    from {color: #0EC3FF;}/*throughout the animation will start at blue*/
+    to {color: white;}/*at the end of the animation the text will be white*/
+}
+
+@keyframes HSTAT {
+    from {color: #0EC3FF;} /*throughout the animation will start at blue*/
+    to {color: white;}/*at the end of the animation the text will be white*/
+}
+li {
+    font-size: 18px; /*sets font size to 18px*/
+}
+
+input {
+    margin-left: auto;/*creates equal space from the left*/
+    margin-right: auto;/*creates equal space from the right*/
+    width: 130px;/*sets the width to 130px*/
+    display: block;/*sets it so that its the only thing on its line*/
+}
+
+#signup {/*id name*/
+    display: block; /*sets it so that its the only thing on its line*/
+    margin-left: auto; /*creates equal space from the left*/
+    margin-right: auto;/*creates equal space from the right*/
+    color: white; /*sets the color to white*/
+    text-align: center;/*allows the text to be centered on the webpage*/
+    font-size: 20px;/*sets font size to 20px*/
+}
+
+.submit { /*name of the class*/
+    background-color: #0EC3FF; /*sets background color to a shade of blue*/
+    display: block; /*allows for only one thing on the line it lives on*/
+    font-size: 18px; /*sets font size*/
+    transition: width 2s, height 2s; /* transition takes 2s to occur*/
+}
+
+.submit:hover { /*causes the height and the width to change when mouse hovers */
+    width: 400px;
+    height: 50px;
+}
+
+#everything {
+    background: linear-gradient(to right, #0EC3FF, white); /*creates a gradient*/
+    background-size: 100%, 100%, auto; /*sets the background to 100% of the screen*/
+}
